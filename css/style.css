@@ -1,4 +1,182 @@
 /* First Breakpoint */
+/* First Breakpoint */
+body {
+  background: white; }
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 1.5em;
+  margin: auto;
+  font-weight: normal;
+  text-shadow: 1px 1px #000000; }
+
+h3 {
+  font-weight: bold;
+  font-size: 1em; }
+
+h4 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0; }
+
+h5 {
+  font-size: 7rem;
+  font-weight: normal;
+  margin: 0; }
+
+h6 {
+  margin: 0;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: normal; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+button {
+  background: none;
+  border: solid 1px #ccc;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 0.5em 1em; }
+
+p {
+  font-size: .9em;
+  line-height: 1.25; }
+
+.nav-ul li {
+  display: inline-block;
+  padding-left: 1em; }
+
+.nav-ul a {
+  text-decoration: none;
+  color: gray; }
+
+.hero {
+  background-color: #1B2854;
+  padding: 5em 2em; }
+  .hero h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: white; }
+
+.form {
+  margin: 2em; }
+
+.input-name {
+  height: 1.6em;
+  width: 100%; }
+
+.input-email {
+  height: 1.6em;
+  width: 100%; }
+
+.input-message {
+  height: 10em;
+  width: 100%; }
+
+.sub-tile-headline {
+  color: white;
+  padding: 2em; }
+
+.button-div {
+  padding: 1em; }
+
+.features {
+  border-top: solid 1px #ccc;
+  margin: 1em; }
+
+.feature-block {
+  margin: 2em; }
+
+footer {
+  background-color: black;
+  padding: 1em;
+  text-align: center; }
+  footer a {
+    color: white; }
+  footer p {
+    color: #ccc; }
+
+/* Second Breakpoint */
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+  /* Styles */
+  h1 {
+    font-size: 2.75em; }
+
+  .hero-image {
+    height: 20em;
+    padding-top: 5em; } }
+/* Third Breakpoint */
+@media only screen and (min-width: 767px) and (max-width: 979px) {
+  /* Styles */
+  h1 {
+    font-size: 2.75em; }
+
+  h4 {
+    font-size: .85em; }
+
+  h5 {
+    font-size: 5rem; }
+
+  .hero-image {
+    height: 20em;
+    padding-top: 5em; }
+
+  .subscription-tile {
+    width: 29%;
+    float: left; }
+
+  .features {
+    clear: left; }
+
+  .feature-block {
+    width: 40%;
+    float: left; }
+
+  footer {
+    clear: left; } }
+/* Fourth Breakpoint */
+@media only screen and (min-width: 979px) {
+  /* Styles */
+  h1 {
+    font-size: 2.75em; }
+
+  h4 {
+    font-size: .85em; }
+
+  h5 {
+    font-size: 5rem; }
+
+  .hero-image {
+    width: 100%;
+    padding-top: 5em; }
+
+  .subscriptions {
+    padding-left: 10%;
+    padding-right: 10%; }
+
+  .subscription-tile {
+    width: 29%;
+    float: left; }
+
+  .features {
+    clear: left;
+    padding-left: 10%;
+    padding-right: 10%; }
+
+  .feature-block {
+    width: 40%;
+    float: left; }
+
+  footer {
+    clear: left; } }
 body {
   background: white; }
 
@@ -154,7 +332,7 @@ footer {
     font-size: 5rem; }
 
   .hero-image {
-    height: 20em;
+    width: 100%;
     padding-top: 5em; }
 
   .subscriptions {

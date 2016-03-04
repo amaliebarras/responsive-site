@@ -1,4 +1,6 @@
 # responsive-site
 week 1 TIY assignment
 
-deployed [here!](https://stormy-robin.surge.sh/)
+EXPLORER MODE deployed [here!](https://stormy-robin.surge.sh/)
+
+ADVENTURER MODE deployer [here!](https://stormy-robin.surge.sh/contact.html)

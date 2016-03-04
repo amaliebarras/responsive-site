@@ -1,6 +1,4 @@
 /* First Breakpoint */
-@import "contact_style";
-
 
 body {
 	background: white;
@@ -13,6 +11,11 @@ h1 {
 	margin: auto;
 	font-weight: normal;
 	text-shadow: 1px 1px #000000;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1em;
 }
 
 h4 {
@@ -52,8 +55,8 @@ button {
 }
 
 p {
-	color: gray;
-	line-height: 1.6;
+	font-size: .9em;
+	line-height: 1.25;
 }
 
 .nav-ul li {
@@ -63,37 +66,36 @@ p {
 
 .nav-ul a {
 	text-decoration: none;
-
+	color: gray;
 }
 
-.hero-image {
-	width: auto;
-	height: 12em;
-	margin-left: 1em;
-	margin-right: 1em;
-	background-image: url("https://images.unsplash.com/2/05.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1aa76292281f3e32847be140c30c6408");
-}
-
-.subscriptions {
-	text-align: center;
-	margin: 3em 0;
-	ul {
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-		background-color: #F5F5F5;
+.hero {
+	background-color: #1B2854;
+	padding: 5em 2em;
+	h4 {
+		text-align: center;
+		font-size: 1.5em;
+		color: white;
 	}
-	li {
-		padding: .5em;
-		color: #465258;
-		border: .5px solid #ccc;
-		border-bottom: none;
-	}
-
 }
 
-.subscription-tile {
-	margin: 1em;
+.form {
+	margin: 2em;
+}
+
+.input-name {
+	height: 1.6em;
+	width: 100%;
+}
+
+.input-email {
+	height: 1.6em;
+	width: 100%;
+}
+
+.input-message {
+	height: 10em;
+	width: 100%;
 }
 
 .sub-tile-headline {
@@ -101,22 +103,14 @@ p {
 	padding: 2em;
 }
 
-#personal {
-	background-color: #40843D;
-}
-
-#small-business {
-	background-color: #203574;
-}
-
-#enterprise {
-	background-color: black;
-}
-
 
 .button-div {
-	border: solid 1px #ccc;
 	padding: 1em;
+}
+
+.features {
+	border-top: solid 1px #ccc;
+	margin: 1em;
 }
 
 .feature-block {
@@ -129,6 +123,10 @@ footer {
 	text-align: center;
 	a {
 		color: white;
+	}
+
+	p {
+		color: #ccc;
 	}
 }
 

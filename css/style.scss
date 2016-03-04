@@ -135,8 +135,56 @@ footer {
 	/* Styles */
 	.hero-image {
 		height: 20em;
-		padding-top: 6em;
+		padding-top: 5em;
 	}
+
+	h1 {
+		font-size: 2.75em;
+	}
+
+}
+
+/* Third Breakpoint */
+@media only screen and (min-width : 767px) and (max-width : 978px) {
+	/* Styles */
+	h1 {
+		font-size: 2.75em;
+	}
+
+	h4 {
+		font-size: .85em;
+	}
+
+	h5 {
+		font-size: 5rem;
+	}
+
+	.hero-image {
+		height: 20em;
+		padding-top: 5em;
+	}
+
+	
+
+	.subscription-tile {
+	width: 29%;
+	float: left;
+	}
+
+	.features {
+		clear: left;
+	}
+
+	.feature-block {
+	width: 40%;
+	float: left;
+	}
+
+	footer {
+		clear: left;
+	}
+
+
 
 }
 
